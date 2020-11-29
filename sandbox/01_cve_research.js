@@ -36,7 +36,6 @@ const research = async (cve_id) => {
   const collection = filteredList.map((data) => {
     array = data.split(", ");
     return {
-      "CVE": "CVE-2018-20060",
       "Platform": array[0],
       "Package": array[1],
       "State": array[2],
